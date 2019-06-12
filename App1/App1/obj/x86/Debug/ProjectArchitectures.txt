@@ -1,0 +1,1 @@
+C:\Users\g522891\source\repos\App1\App1\UWP_BLE_CLIENT.csproj;x86

@@ -1,0 +1,44 @@
+
+17
+
+Use the wcstombs() function, which is located in <stdlib.h>. Here's how to use it:
+LPWSTR wideStr = L"Some message";
+char buffer[500];
+
+// First arg is the pointer to destination char, second arg is
+// the pointer to source wchar_t, last arg is the size of char buffer
+wcstombs(buffer, wideStr, 500);
+
+printf("%s", buffer);
+
+######################################################################################
+for ANDROID     --- https://stackoverflow.com/questions/6326716/bluetooth-file-transfer
+
+In case of transferring the files you can make an explicit call to ACTION_SEND using intents as shown below.
+You can send a file to a paired device through obex in a couple of ways:
+With the ACTION_SEND intent, that will popup a menu with the application that can 
+handle the file type you want to send, from which the user will need to select bluetooth, and then the device.
+
+Intent i = new Intent(Intent.ACTION_SEND); i.setType("image/jpeg");    
+i.putExtra(Intent.EXTRA_STREAM, Uri.parse("/sdcard/file.jpg")); 
+startActivity(Intent.createChooser(i, "Send Image"));
+I think this will help u . :)
+
+#######################################################################################
+I have successfully build pybluez for win10x64 with python3.6
+Download and install windows 10 build tools: https://www.visualstudio.com/pl/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15
+Run 'Developer Command Prompt for VS' as administrator
+Clone pybluez repo https://github.com/karulis/pybluez
+cd to directory with repo
+run python setup.py install
+Happy blouetoothing
+########################################################################
+to know windows version and build:- do Win+R >> winver
+#######################################################################
+/* for speaking Hello World , UWP platform
+  MediaElement mediaElement = new MediaElement();
+  var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+  Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
+  mediaElement.SetSource(stream, stream.ContentType);
+  mediaElement.Play();
+*/

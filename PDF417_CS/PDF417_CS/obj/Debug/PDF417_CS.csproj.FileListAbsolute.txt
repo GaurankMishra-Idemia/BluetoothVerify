@@ -1,0 +1,14 @@
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\PDF417_CS.exe.config
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\PDF417_CS.exe
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\PDF417_CS.pdb
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\zxing.dll
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\zxing.presentation.dll
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\zxing.pdb
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\zxing.xml
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\zxing.presentation.pdb
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\bin\Debug\zxing.presentation.xml
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\obj\Debug\PDF417_CS.csprojAssemblyReference.cache
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\obj\Debug\PDF417_CS.csproj.CoreCompileInputs.cache
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\obj\Debug\PDF417_CS.csproj.CopyComplete
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\obj\Debug\PDF417_CS.exe
+C:\Users\g522891\source\repos\PDF417_CS\PDF417_CS\obj\Debug\PDF417_CS.pdb
